@@ -14,7 +14,9 @@ if echo "$commitTitle" | grep -qE "^Merge"; then
 fi
 
 # check commit message
-REGEX='^(\(\#\d+\)\s*)?(feat|fix|docs|style|refactor|ci|test|chore|comment)\(.*\)\:.*'
+# Example: feat(admin): Add new feature
+# Example with issue prefix: (#1234) feat(user): Add user login
+REGEX='^(\(\#[0-9]+\)\s)?(feat|fix|docs|style|refactor|ci|test|chore|comment)\([^\)]+\)\:\s[A-Z].*'
 if ! echo "$commitTitle" | grep -qE "${REGEX}"; then
 	echo "Your commit title '$commitTitle' did not follow conventional commit message rules:"
 	echo "Please comply with the regex ${REGEX}"
