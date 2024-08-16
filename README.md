@@ -42,6 +42,8 @@ This format is slightly different from the [Conventional Commits](https://www.co
   - `chore`: changes to the build process or auxiliary tools and libraries such as documentation generation
   - `comment`: changes that only affect comments
 
+- The scope is mandatory (wildcard `*` is allowed)
+
 - Last sentence must start with uppercased letter
 
 - An optional prefix is allowed and must be one of the following:
