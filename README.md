@@ -4,6 +4,20 @@
 > Some reusable git hooks
 ---
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Usage](#usage)
+  - [Per repository usage](#per-repository-usage)
+  - [Global usage](#global-usage)
+- [Hooks](#hooks)
+  - [commit-msg](#commit-msg)
+- [License](#license)
+- [Contribute](#contribute)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
 
 ## Usage
 
@@ -46,7 +60,7 @@ This format is slightly different from the [Conventional Commits](https://www.co
 
 - Last sentence must start with uppercased letter
 
-- An optional prefix is allowed and must be one of the following:
+- An optional prefix is allowed and must respect the following format:
   - `(#XXXX)`: where `XXXX` is an integer (related to an issue for example)
 
 
