@@ -15,7 +15,9 @@
 
 ## Global usage
 
-**!!Warning!!** setting a global hooks path disables all local hooks in you repos
+See https://stackoverflow.com/a/37293198/7497291
+
+**!!Warning!!** setting global hooks path disables all local hooks in your repos
 
 - Clone this repository in some `/path/to/the/clone/` folder.
 - make it executable if necessary: `chmod +x /path/to/the/clone/hooks/<hook-name>`
