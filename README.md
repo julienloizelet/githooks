@@ -1,7 +1,9 @@
 # Git hooks
 
 ---
+
 > Some reusable git hooks
+
 ---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -16,8 +18,6 @@
 - [Contribute](#contribute)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-
 
 ## Usage
 
@@ -35,7 +35,7 @@ See https://stackoverflow.com/a/37293198/7497291
 
 - Clone this repository in some `/path/to/the/clone/` folder.
 - make it executable if necessary: `chmod +x /path/to/the/clone/hooks/<hook-name>`
-- `git config --global core.hooksPath /path/to/the/clone/hooks`
+- `git config --global core.hooksPath /path/to/the/clone/hooks` (use `core.hookspath` on Mac OS )
 
 ## Hooks
 
@@ -46,6 +46,7 @@ Check if the commit message follows a custom format.
 This format is slightly different from the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format:
 
 - The type is mandatory and must be one of the following:
+
   - `feat`: a new feature
   - `fix`: a bug fix
   - `docs`: documentation only changes
@@ -63,7 +64,6 @@ This format is slightly different from the [Conventional Commits](https://www.co
 - An optional prefix is allowed and must respect the following format:
   - `(#XXXX)`: where `XXXX` is an integer (related to an issue for example)
 
-
 ## License
 
 [MIT](LICENSE)
@@ -71,6 +71,5 @@ This format is slightly different from the [Conventional Commits](https://www.co
 ## Contribute
 
 Anyone is welcome to submit a pull request to this repository.
-
 
 **Contributed and maintained by [julienloizelet](https://github.com/julienloizelet)**
